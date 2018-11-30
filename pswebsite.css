@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+body {
+  background-color: #e1f8ff;
+  color: aqua;
+  font-family: 'Fjalla One', sans-serif;
+  text-align: center;
+  margin: 10px;
+
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgba(68, 68, 68, 0.151);
+  font-size: 16px;
+  margin: 0px 10;
+}
+
+h2{
+  padding: 5px;
+  align-items: baseline
+}
+h1 a:hover {
+  color: rgb(99, 99, 99);
+}
+
+header { 
+  padding: 20px;
+  background: #090116;
+  text-align: center;
+}
+
+
+
+.logo {
+
+  float: left;
+  padding: 0px 20;
+}
+
+
+nav a:hover {
+  color: rgb(247, 242, 242);
+}
+
+nav a {
+  font-family: 'Work Sans', sans-serif;
+	font-size: 30;
+  color: rgb(187, 187, 187);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 0px 10;
+}
+
