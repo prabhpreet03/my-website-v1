@@ -2,19 +2,32 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 
+.mypicture{
+  align-content: center;
+  margin-left: 00px;
+  margin-top: 100px;
+}
+
 body {
   font-family: 'Work Sans', sans-serif;
-  text-align: left;
+  text-align: center;
 }
+
+
 footer {
   align-content: center;
+}
+ul.links{
   margin-left: 435px;
+  margin-top: -200px;
+  margin-bottom: 10px;
+
 }
 ul li{
   list-style: none;
   width: 60px;
   height: 60px;
-  margin: 300px 30px;
+  margin: 3px 30px;
   transform: rotate(0deg);
 }
 .container{
@@ -109,30 +122,18 @@ header {
   text-align: center;
 }
 
+.navbar{ background:rgb(3, 0, 20);}
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+.nav-link{ margin-right: 1em !important;}
+.nav-link:hover{ background: #2e2e2e; color: #e9e9e9; }
+.navbar-collapse{ justify-content: flex-end;}
+.navbar-toggler{  background:#fff !important;}
 
+.navbar-collapse{
+  justify-content: flex-end;
+ }
 
-.logo {
-
-  float: left;
-  padding: 0px 20;
-}
-
-
-nav a:hover {
-  transform: scale(1.1);
-  opacity: .6;
-  color: rgb(247, 242, 242);
-}
-
-nav a {
-  font-family: 'Work Sans', sans-serif;
-	font-size: 30;
-  color: rgb(116, 116, 116);
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 16px;
-  margin: 0px 10;
-  list-style: none;
-  transition: .5s;
-}
+ .img-rounded{
+   margin: 10px;
+ }
 
